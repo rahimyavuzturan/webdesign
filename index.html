@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Project</title>
+    <title>CatPhotoApp</title>
 </head>
 <body>
   <main>
@@ -46,21 +48,30 @@
       <form action="https://freecatphotoapp.com/submit-cat-photo">
          <fieldset>
           <legend>Is your cat indoor or outdoor cat?</legend>
-          <label><input type="radio" id="indoor" name="indoor-outdoor" value="Indoor">Indoor</label>
+          <label><input type="radio" id="indoor" name="indoor-outdoor" value="Indoor" checked>Indoor</label>
           <label><input type="radio" id="outdoor" name="indoor-outdoor" value="Outdoor">Outdoor</label>
          </fieldset>
          <fieldset>
           <legend>What is your cats personality?</legend>
-          <input type="checkbox" id="loving"> Loving
+          <input type="checkbox" id="loving" name="personality" value="loving" checked> Loving
+          
           <!--alternatif-->
-          <input type="checkbox" id="sad">
+          <input type="checkbox" id="sad" name="personality" value="sad">
           <label for="sad">Sad</label>
+          
+          <input type="checkbox" name="personality" value="lazy"> Lazy
+           
+          <input type="checkbox" name="personality" value="energetic"> Energetic 
+        
          </fieldset>
-        <!-- required boş submit yapmamamızı sağlıyor-->
-        <input type="text" placeholder="cat photo url" required>
-        <button type="submitt">Submit</button>
+         <!-- required boş submit yapmamamızı sağlıyor-->
+         <input type="text" placeholder="cat photo url" required>
+         <button type="submitt">Submit</button>
       </form>
     </section>
   </main>
+  <footer>
+   <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a> </p>
+  </footer>
 </body>
 </html>
