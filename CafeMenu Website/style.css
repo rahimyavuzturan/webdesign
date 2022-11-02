@@ -1,12 +1,28 @@
-h1,h2,p {
-    text-align: center;
-   }
 body {
     background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2029&q=80) ;
 }
+h1,h2,p {
+    text-align: center;
+   }
+
 .menu {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
     background-color: mediumorchid;
 }
+.item p {
+    display: inline-block;
+
+}
+
+.flavor,.desserts {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
