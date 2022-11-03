@@ -4,12 +4,30 @@ body {
 h1,h2,p {
     text-align: center;
    }
-
+h1,h2 {
+    font-family: Impact,serif;
+}
+h1{
+    font-size: 40px;
+}   
+h2{
+    font-size: 30px;
+}
+hr{
+    height: p2x;
+    background-color: mediumpurple;
+    border-color: mediumpurple;
+}
 .menu {
+    max-width: 500px;
+    padding: 20px;
     margin-right: auto;
     margin-left: auto;
     width: 80%;
     background-color: mediumorchid;
+}
+.established{
+    font-style: italic;
 }
 .item p {
     display: inline-block;
